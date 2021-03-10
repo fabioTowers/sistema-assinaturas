@@ -7,21 +7,21 @@
    version="3.1">
 
   <servlet>
-    <servlet-name>Hello</servlet-name>
-    <servlet-class>org.example.HelloServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Hello</servlet-name>
-    <url-pattern>/</url-pattern>
-  </servlet-mapping>
-
-  <servlet>
     <servlet-name>ConsultarAssinaturas</servlet-name>
-    <servlet-class>org.example.ConsultarAssinaturas</servlet-class>
+    <servlet-class>org.example.controllers.assinatura.ConsultarAssinaturas</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ConsultarAssinaturas</servlet-name>
     <url-pattern>/consulta</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdicionarAssinatura</servlet-name>
+    <servlet-class>org.example.controllers.assinatura.AdicionarAssinatura</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdicionarAssinatura</servlet-name>
+    <url-pattern>/adicionar</url-pattern>
   </servlet-mapping>
 
 </web-app>

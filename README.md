@@ -11,7 +11,7 @@ Esse sistema online acessa um banco de dados onde os dados são persistidos. O b
 O banco de dados criado para a aplicação possui a seguinte tabela:
 
 id | nome | cpf | plano | situacao
--|
+-|-|-|-|-
 
 O script SQL utilizado está disponível [aqui](https://github.com/fabioTowers/sistema-assinaturas/blob/master/projeto/recursos/tabela_assinaturas.sql).
 

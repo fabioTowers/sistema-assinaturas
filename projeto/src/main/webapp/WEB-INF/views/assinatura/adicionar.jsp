@@ -13,7 +13,7 @@
   <hr>
   <h2>Adicionar nova assinatura</h2>
 
-  <form action="" method="post">
+  <form action="SalvarFormulario" method="post">
     Nome: <input type="text" name="nome">
     <br>
     CPF: <input type="text" name="cpf">
@@ -28,7 +28,8 @@
       <option value="ativo">Ativo</option>
       <option value="inativo">Inativo</option>
     </select>
-  <button type="submit"></button>
+    <br>
+  <button type="submit">Adicionar</button>
   </form>
 
   <br><br>

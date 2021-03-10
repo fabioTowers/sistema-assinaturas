@@ -24,4 +24,31 @@
     <url-pattern>/adicionar</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>SalvarFormulario</servlet-name>
+    <servlet-class>org.example.controllers.assinatura.SalvarFormulario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SalvarFormulario</servlet-name>
+    <url-pattern>/SalvarFormulario</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ExcluirAssinatura</servlet-name>
+    <servlet-class>org.example.controllers.assinatura.ExcluirAssinatura</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExcluirAssinatura</servlet-name>
+    <url-pattern>/excluir</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ProcessarExclusao</servlet-name>
+    <servlet-class>org.example.controllers.assinatura.ProcessarExclusao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProcessarExclusao</servlet-name>
+    <url-pattern>/confirmacao_exclusao</url-pattern>
+  </servlet-mapping>
+
 </web-app>

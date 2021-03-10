@@ -1,6 +1,9 @@
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/models/assinatura/AssinaturasGateway.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/models/ConnectionFactory.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/AdicionarAssinatura.java
+/home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/ProcessarExclusao.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/HelloServlet.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/models/assinatura/Assinatura.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/ConsultarAssinaturas.java
+/home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/SalvarFormulario.java
+/home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/ExcluirAssinatura.java

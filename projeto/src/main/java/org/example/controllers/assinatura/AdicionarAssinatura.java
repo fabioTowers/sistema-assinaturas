@@ -16,7 +16,5 @@ public class AdicionarAssinatura extends HttpServlet
 
       RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/assinatura/adicionar.jsp");
       rd.forward(request, response);
-      
-
     }
 }

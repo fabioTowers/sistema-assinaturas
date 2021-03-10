@@ -61,7 +61,7 @@ public class AssinaturasGateway {
 
   /*Deletar um registro da tabele*/
   public void delete(Integer id) throws SQLException  {
-    String SQL_DELETE = "DELETE FROM assinatura WHERE id = ?;";
+    String SQL_DELETE = "DELETE FROM assinaturas WHERE id = ?;";
     PreparedStatement pstm = conn.prepareStatement(SQL_DELETE);
     pstm.setInt(1, id);
     pstm.executeUpdate();

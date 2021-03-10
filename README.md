@@ -13,7 +13,7 @@ O banco de dados criado para a aplicação possui a seguinte tabela:
 id | nome | cpf | plano | situacao
 -|-|-|-|-
 
-O script SQL utilizado está disponível [aqui](https://github.com/fabioTowers/sistema-assinaturas/blob/master/projeto/recursos/tabela_assinaturas.sql).
+O script SQL utilizado está disponível [aqui](https://github.com/fabioTowers/sistema-assinaturas/blob/master/projeto/recursos/tabela_assinaturas.sql) e contém mais informações sobre os tipos de dados.
 
 Esse projeto foi desenvolvido utilizando a IDE online [repl.it](https://repl.it/) e a plataforma de banco de dados é a [Elephant SQL](https://www.elephantsql.com/).
 

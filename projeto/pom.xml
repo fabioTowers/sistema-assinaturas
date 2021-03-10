@@ -23,6 +23,12 @@
       <version>3.1.0</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.2.16.jre7</version>
+      <type>jar</type>
+    </dependency>
   </dependencies>
 
   <build>

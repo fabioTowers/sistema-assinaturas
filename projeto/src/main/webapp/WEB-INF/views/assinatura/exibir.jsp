@@ -11,7 +11,7 @@
 <body>
   <h1>Sistema de Controle de Assinantes</h1>
   <hr>
-  <h2>Consulta de assinanturas</h2>
+  <h2>Consulta de assinaturas</h2>
 <%
 List<Assinatura> assinaturas = (List<Assinatura>) request.getAttribute("assinaturas");
 boolean sucesso = (boolean) request.getAttribute("operacao_realizada");
@@ -45,6 +45,9 @@ boolean sucesso = (boolean) request.getAttribute("operacao_realizada");
 <%}%>
 
   <br><br>
-  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Página Inicial</a>
+  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Página Inicial</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/adicionar'>Adicionar assinatura</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/atualizar'>Alterar assinatura</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/excluir'>Excluir assinatura</a>
 </body>
 </html>

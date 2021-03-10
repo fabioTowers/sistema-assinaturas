@@ -33,6 +33,8 @@
   </form>
 
   <br><br>
-  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Voltar</a>
+  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Página Inicial</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/excluir'>Excluir assinatura</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/atualizar'>Alterar assinatura</a>
 </body>
 </html>

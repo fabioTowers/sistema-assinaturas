@@ -50,6 +50,8 @@ boolean sucesso = (boolean) request.getAttribute("operacao_realizada");
     <button type="submit">Excluir</button>
   </form>
   <br><br>
-  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Página Inicial</a>
+  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Página Inicial</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/atualizar'>Alterar assinatura</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/adicionar'>Adicionar assinatura</a>
 </body>
 </html>

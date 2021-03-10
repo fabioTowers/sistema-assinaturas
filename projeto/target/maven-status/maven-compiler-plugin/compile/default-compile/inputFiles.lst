@@ -5,5 +5,7 @@
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/HelloServlet.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/models/assinatura/Assinatura.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/ConsultarAssinaturas.java
+/home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/AtualizarAssinatura.java
+/home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/ProcessarAtualizacao.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/SalvarFormulario.java
 /home/runner/sistema-assinaturas/projeto/src/main/java/org/example/controllers/assinatura/ExcluirAssinatura.java

@@ -27,8 +27,9 @@ boolean sucesso = (boolean) request.getAttribute("operacao_realizada");
   <p>Ocorreu uma <b>exceção</b> e não foi possível acessar o banco de dados.</p>
 <%}%>
   <br><br>
-  <a href='https://sistema-assinaturas.fmendest.repl.co/consulta'>Consulta de Assinaturas</a>
-  <br>
-  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Voltar à Página Inicial</a>
+  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Página Inicial</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/consulta'>Consulta de Assinaturas</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/excluir'>Excluir assinatura</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/atualizar'>Alterar assinatura</a>
 </body>
 </html>

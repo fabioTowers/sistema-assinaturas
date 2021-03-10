@@ -51,4 +51,22 @@
     <url-pattern>/confirmacao_exclusao</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>AtualizarAssinatura</servlet-name>
+    <servlet-class>org.example.controllers.assinatura.AtualizarAssinatura</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AtualizarAssinatura</servlet-name>
+    <url-pattern>/atualizar</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ProcessarAtualizacao</servlet-name>
+    <servlet-class>org.example.controllers.assinatura.ProcessarAtualizacao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProcessarAtualizacao</servlet-name>
+    <url-pattern>/salvar_atualizacao</url-pattern>
+  </servlet-mapping>
+
 </web-app>

@@ -6,12 +6,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adicionar novo</title>
+  <title>Excluir</title>
 </head>
 <body>
   <h1>Sistema de Controle de Assinantes</h1>
   <hr>
-  <h2>Adicionar nova assinatura</h2>
+  <h2>Excluir uma assinatura</h2>
 <%
 boolean sucesso = (boolean) request.getAttribute("operacao_realizada");
 %>
@@ -19,7 +19,8 @@ boolean sucesso = (boolean) request.getAttribute("operacao_realizada");
 <%if(sucesso){%>
   <%boolean exclusaoOK = (boolean) request.getAttribute("foiExcluido");%>
   <%if(exclusaoOK){%>
-    <%Assinatura registroApagado = (Assinatura) request.getAttribute("registroApagado");%>
+    <%Assinatura registroApagado = (Assinatura) request.getAttribute("antigo");
+    Assinatura registroApagado = (Assinatura) request.getAttribute("antigo");%>
     <p>Os dados abaixo foram <b>excluidos</b> com sucesso:</p>
     <p><b>Nome</b>: <%= registroApagado.getNome() %></p>
     <p><b>CPF</b>: <%= registroApagado.getCpf() %></p>
@@ -33,8 +34,9 @@ boolean sucesso = (boolean) request.getAttribute("operacao_realizada");
   <p>Ocorreu uma <b>exceção</b> e não foi possível acessar o banco de dados.</p>
 <%}%>
   <br><br>
-  <a href='https://sistema-assinaturas.fmendest.repl.co/consulta'>Consulta de Assinaturas</a>
-  <br>
-  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Voltar à Página Inicial</a>
+  <a href='https://sistema-assinaturas.fmendest.repl.co/'>Voltar à Página Inicial</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/consulta'>Consulta de Assinaturas</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/atualizar'>Alterar assinatura</a> - 
+  <a href='https://sistema-assinaturas.fmendest.repl.co/adicionar'>Adicionar assinatura</a>
 </body>
 </html>

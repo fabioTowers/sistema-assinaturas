@@ -42,9 +42,9 @@
     <h1>Sistema de Controle de Assinantes</h1>
     <nav>
       <ul>
-        <li><a href='https://sistema-assinaturas.fmendest.repl.co/'>Página Inicial</a></li>
-        <li><a href='https://sistema-assinaturas.fmendest.repl.co/excluir'>Excluir assinatura</a></li>
-        <li><a href='https://sistema-assinaturas.fmendest.repl.co/atualizar'>Alterar assinatura</a></li>
+        <li><a href='https://sistema-assinaturas.marianazangrossi.repl.co/'>Página Inicial</a></li>
+        <li><a href='https://sistema-assinaturas.marianazangrossi.repl.co/excluir'>Excluir assinatura</a></li>
+        <li><a href='https://sistema-assinaturas.marianazangrossi.repl.co/atualizar'>Alterar assinatura</a></li>
       </ul>
     </nav>
   </header>

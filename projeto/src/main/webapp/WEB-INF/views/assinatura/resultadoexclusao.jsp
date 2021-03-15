@@ -32,8 +32,7 @@
         <h2 class="subtitle">Assinatura excluída</h2>
         <%boolean exclusaoOK = (boolean) request.getAttribute("foiExcluido");%>
         <%if(exclusaoOK){%>
-          <%Assinatura registroApagado = (Assinatura) request.getAttribute("antigo");
-          Assinatura registroApagado = (Assinatura) request.getAttribute("antigo");%>
+          <%Assinatura registroApagado = (Assinatura) request.getAttribute("registroAlterado");%>
           <p>Os dados abaixo foram <b>excluidos</b> com sucesso:</p>
           <p><b>Nome</b>: <%= registroApagado.getNome() %></p>
           <p><b>CPF</b>: <%= registroApagado.getCpf() %></p>
